@@ -1,7 +1,6 @@
 import time
 import torch
 import streamlit as st
-import torch
 from diffusers import StableDiffusionPipeline
 
 st.set_page_config(layout="wide")
