@@ -5,7 +5,7 @@ import torch
 from diffusers import StableDiffusionPipeline
 
 st.set_page_config(layout="wide")
-st.title("[VESSL AI] Stable Diffusion")
+st.title("Stable Diffusion")
 
 st.text("Loading Stable Diffusion Model")
 pipe = StableDiffusionPipeline.from_pretrained(
